@@ -1,7 +1,8 @@
 html {
-    background-color: palevioletred;
-    }
     
+    
+    background-color:aquamarine ;
+}
     audio:hover, audio:focus, audio:active
     {
     -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
@@ -23,11 +24,10 @@ html {
     -moz-border-radius:7px 7px 7px 7px ;
     -webkit-border-radius:7px 7px 7px 7px ;
     border-radius:7px 7px 7px 7px ;
+    text-align:start;
+    }
     
-    }
-    div {
-     text-align: center;
-    }
+    
     
      .heart{
         position: relative;
@@ -43,7 +43,7 @@ html {
         right: -500px ;
         animation: heart 1s ease infinite;
         top: 200px;
-        
+        right: -550px;
       }
       .heart:before,
       .heart:after{
@@ -76,7 +76,7 @@ html {
         }
     } */
     
-    @keyframes heart {
+    /* @keyframes heart {
         0% {
             transform: scale(1.5);
         }
@@ -90,11 +90,12 @@ html {
             transform: scale(1);
             transform: rotate(45deg);
         }
-    }
+    } */
     button {
       font-family: monospace;
       font-size: 20px;
       background-color: cornflowerblue;
+      bottom: 10px;
     }
     button:hover {
       background-color: darkblue;
@@ -105,4 +106,29 @@ html {
     #password:hover {
       background-color: lightgreen;
     }
+    h1 {
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 36px;
+    }
+    h2 {
+      text-align: center;
+    }
+      div {
+        text-align: center;
+      }
+      p {
+      font-family: monospace;
+      font-style:initial;
+      font-size: 18px;
+      }
+    #demo {
+      text-align: end;
+    }
+    img {
+      height: 300px;
+    }
+    
+    
+  
     

@@ -2,97 +2,119 @@
 <html lang="en">
 <head>
  
-    <title>Document</title>
+    <title>Đây Là Nhà Của Thuận!</title>
     <link rel="stylesheet" href="style.css">
   
    <script src="main.js" ></script>
 </head>
  
 <body>
-    <button onclick="tinhyeune()">click me! </button>
-    <input name="tinhthanh" list="tinhthanh" placeholder="chọn tỉnh">
+  <audio controls loop>
+    <source src="/music/FILE_20210909_193907_MẮT BIẾC -  TEASER(MP3_128K).mp3">
+</audio>
+  <input name="tinhthanh" list="tinhthanh" placeholder="select..." class="io">
     <datalist id="tinhthanh">
-      <option value="Hà Giang" >
-      <option value="Cao Bằng" >
-      <option value="Bắc Kạn" >
-      <option value="Lạng Sơn" >
-      <option value="Tuyên Quang" >
-      <option value="Thái Nguyên" >
-      <option value="Phú Thọ" >
-      <option value="Bắc Giang" >
-      <option value="Quảng Ninh" >
-      <option value="Lào Cai" >
-      <option value="Yên Bái" >
-      <option value="Điện Biên" >
-      <option value="Hòa Bình" >
-      <option value="Lai Châu" >
-      <option value="Sơn La" >
-      <option value="Bắc Ninh" >
-      <option value="Hà Nam" >
-      <option value="Hà Nội" >
-      <option value="Hải Dương" >
-      <option value="Hải Phòng" >
-      <option value="Hưng Yên" >
-      <option value="Nam Định" >
-      <option value="Ninh Bình" >
-      <option value="Thái Bình" >
-      <option value="Vĩnh Phúc" >
-      <option value="Thanh Hoá" >
-      <option value="Nghệ An" >
-      <option value="Hà Tĩnh" >
-      <option value="Quảng Bình" >
-      <option value="Quảng Trị" >
-      <option value="Thừa Thiên - Huế" >
-      <option value="Đà Nẵng" >
-      <option value="Quảng Nam" >
-      <option value="Quảng Ngãi" >
-      <option value="Bình Định" >
-      <option value="Phú Yên" >
-      <option value="Khánh Hoà" >
-      <option value="Ninh Thuận" >
-      <option value="Bình Thuận" >
-      <option value="Kon Tum" >
-      <option value="Gia Lai" >
-      <option value=" Đắc Lắc" >
-      <option value="Đắc Nông" >
-      <option value="Lâm Đồng" >
-      <option value="Bình Phước" >
-      <option value="Bình Dương" >
-      <option value="Đồng Nai" >
-      <option value="Tây Ninh" >
-      <option value=" Bà Rịa-Vũng Tàu" >
-      <option value=" Thành phố Hồ Chí Minh" >
-      <option value="Long An" >
-      <option value="Đồng Tháp" >
-      <option value="Tiền Giang" >
-      <option value="An Giang" > 
-      <option value="Bến Tre" >
-      <option value="Vĩnh Long" >
-      <option value="Cần Thơ" >
-      <option value="Trà Vinh" >
-      <option value="Hậu Giang" >
-      <option value="Kiên Giang" >
-      <option value="Sóc Trăng" >
-      <option value="Bạc Liêu" >
-      <option value="Cà Mau" >
+      <option value="Hà Giang (23)" >
+      <option value="Cao Bằng (11)" >
+      <option value="Bắc Kạn (97)" >
+      <option value="Lạng Sơn (12)" >
+      <option value="Tuyên Quang (22)" >
+      <option value="Thái Nguyên (20)" >
+      <option value="Phú Thọ (19)" >
+      <option value="Bắc Giang (98)" >
+      <option value="Quảng Ninh (14)" >
+      <option value="Lào Cai (24)" >
+      <option value="Yên Bái (21)" >
+      <option value="Điện Biên (27)" >
+      <option value="Hòa Bình (28)" >
+      <option value="Lai Châu (25)" >
+      <option value="Sơn La (26)" >
+      <option value="Bắc Ninh (99)" >
+      <option value="Hà Nam (90)" >
+      <option value="Hà Nội (29-33+40)" >
+      <option value="Hải Dương (34)" >
+      <option value="Hải Phòng (15+16)" >
+      <option value="Hưng Yên (89)" >
+      <option value="Nam Định (18)" >
+      <option value="Ninh Bình (35)" >
+      <option value="Thái Bình (17)" >
+      <option value="Vĩnh Phúc (88)" >
+      <option value="Thanh Hoá (36)" >
+      <option value="Nghệ An (37)" >
+      <option value="Hà Tĩnh (38)" >
+      <option value="Quảng Bình (73)" >
+      <option value="Quảng Trị (74)" >
+      <option value="Thừa Thiên - Huế (75)" >
+      <option value="Đà Nẵng (43)" >
+      <option value="Quảng Nam (92)" >
+      <option value="Quảng Ngãi (76)" >
+      <option value="Bình Định (77)" >
+      <option value="Phú Yên (78)" >
+      <option value="Khánh Hoà(79)" >
+      <option value="Ninh Thuận (85)" >
+      <option value="Bình Thuận (86)" >
+      <option value="Kon Tum (82)" >
+      <option value="Gia Lai (81)" >
+      <option value=" Đắc Lắc (47)" >
+      <option value="Đắc Nông (48)" >
+      <option value="Lâm Đồng (49)" >
+      <option value="Bình Phước (93)" >
+      <option value="Bình Dương (61)" >
+      <option value="Đồng Nai (60)" >
+      <option value="Tây Ninh (70)" >
+      <option value=" Bà Rịa-Vũng Tàu (72)" >
+      <option value=" Thành phố Hồ Chí Minh (50-59)" >
+      <option value="Long An (62)" >
+      <option value="Đồng Tháp (66)" >
+      <option value="Tiền Giang (63)" >
+      <option value="An Giang (67)" > 
+      <option value="Bến Tre(71)" >
+      <option value="Vĩnh Long (64)" >
+      <option value="Cần Thơ (65)" >
+      <option value="Trà Vinh(84)" >
+      <option value="Hậu Giang (95)" >
+      <option value="Kiên Giang (68)" >
+      <option value="Sóc Trăng (84)" >
+      <option value="Bạc Liêu (94)" >
+      <option value="Cà Mau (69)" >
      
       
     </datalist>
-   <form>
-       <div>
-       <input type="text" name="name" placeholder="Name" id="name">
-       <input type="password" name="password" placeholder="Password" id="password">
-       <input type="submit" id="submit" onclick="user1()">
-       </div>
+    
+   
+   
+  <div>
+ <h1>Mắt Biếc </h1>
+ <h2> Tình đầu, một thời cứ ngỡ một đời...</h2>
+    <p>
+      “Tôi gửi tình yêu cho mùa hè, nhưng mùa hè không giữ nổi. <br>
+       Mùa hè chỉ biết ra hoa, phượng đỏ sân trường và tiếng ve nỉ non trong lá. <br>
+       Mùa hè ngây ngô, giống như tôi vậy. Nó chẳng làm được những điều tôi kí thác. <br>
+       Nó để Hà Lan đốt tôi, đốt rụi. Trái tim tôi cháy thành tro, rơi vãi trên đường về.” <br>
 
-   </form>
-   <audio controls loop>
-       <source src="/New folder/mascara.mp3">
-       
-   </audio> 
-     <!-- <div class="heart"> -->
+    </p>
+    <img src="/img/matbiec2.jpg "alt="" >
+    <p class="demo" >
+      Lặng lẽ chiều nay <br>
+      Lặng lẽ mùa hè  <br>
+      Sân trường vắng  <br>
+      Và lòng tôi cũng vắng  <br>
+      Muốn tặng em một chùm phượng thắm  <br>
+      Tôi nhờ mùa hè bẻ hộ tôi... 
+      </p>
+  </div> 
+      <div class="heart">
          
-    </div>
+    </div> 
+    <form>
+       
+      <input type="text" name="name" placeholder="Name" id="name">
+      <input type="password" name="password" placeholder="Password" id="password">
+      <input type="submit" id="submit" >
+      
+ 
+  </form> 
+    <button onclick="yeu()" > click vào đây đi :3</button>
     </body>
     </html
 
