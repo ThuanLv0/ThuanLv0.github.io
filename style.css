@@ -11,7 +11,7 @@
       overflow-x:hidden;
       /* background: linear-gradient(#a6d8ff, #fff, #fff);
        */
-       background: #b45f04;
+       background: #00ffbf;
   }
   .dark .scene {
      background: #240b3b;
@@ -23,7 +23,7 @@
       transform:translateX(-50%);
       width: 100px;
       height: 100px;
-      background: #fff;
+      background: #ff8000;
       border-radius: 50%;
       box-shadow: 0 0 50px #fff;
       cursor: pointer;
@@ -32,7 +32,7 @@
   }
   .dark .sun {
       left: 45%;
-      
+      background: #00ffbf;
       box-shadow: 0 0 0 #fff;
   }
   .dark .sun::before
