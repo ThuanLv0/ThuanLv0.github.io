@@ -5,3 +5,7 @@
 // function yeu() {
     
 // }
+function happy() {
+	document.getElementById('img1').style.display='block';
+	alert("Happy birthday to Cuong!");
+}
