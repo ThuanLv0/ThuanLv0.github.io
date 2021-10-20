@@ -1,5 +1,5 @@
-
-    * {
+/* 
+/*     * {
       margin: 0%;
       padding: 0%;
       box-sizing: border-box;
@@ -11,7 +11,7 @@
       overflow-x:hidden;
       /* background: linear-gradient(#a6d8ff, #fff, #fff);
        */
-       background: #00ffbf;
+/*        background: #00ffbf;
   }
   .dark .scene {
      background: #240b3b;
@@ -46,9 +46,9 @@
      background:#240b3b;
      border-radius: 50%;
   }
-     
+      */
   
-  .bg {
+/*   .bg {
       position: absolute;
       bottom: 0;
       width: 100%;
@@ -64,10 +64,10 @@
       bottom: 20px;
       max-width: 200px;
       z-index: 10;
-      animation: car1 12s linear infinite;
+      animation: car1 12s linear infinite; */
       
   
-  }
+/*   }
   @keyframes animateBg {
       0% {
           background-position-x: 0px;
@@ -83,19 +83,19 @@
       
       }
       90%,100% {
-          transform: translateX(calc(100vw + 200px));
+          transform: translateX(calc(100vw + 200px)); */
       
       }
-  }
+/*   }
   .car2 {
       position: absolute;
       right: -200px;
       bottom: 50px;
       max-width: 200px;
       z-index: 9;
-      animation: car2 12s linear infinite;
+      animation: car2 12s linear infinite; */
   
-  }
+/*   }
   @keyframes car2 {
   
       0% {
@@ -103,7 +103,11 @@
       
       }
       90%,100% {
-          transform: translateX(calc(-100vw - 200px)) rotateY(180deg);
+          transform: translateX(calc(-100vw - 200px)) rotateY(180deg); */
       
-      }
-  }
+      } 
+  } */
+#img1 {
+    width: 1500px;
+      height: 700px;
+}
